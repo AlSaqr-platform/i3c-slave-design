@@ -1,0 +1,27 @@
+package:
+  name: i3c_slave
+
+sources:
+    
+    - unzipped/src/i3c_auton_wrapper.v
+    - unzipped/src/i3c_data_frombus.v  
+    - unzipped/src/sync_autonomous.v
+    - unzipped/src/i3c_data_tobus.v
+    - unzipped/src/i3c_auton_wrap_full.v
+    - unzipped/src/CLOCK_SOURCE.v
+    - unzipped/src/i3c_autonomous_reg.v
+    - unzipped/src/i3c_exit_detector.v
+    - unzipped/src/i3c_dma_control.v
+    - unzipped/src/i3c_slow_counters.v
+    - unzipped/src/i3c_apb_wrapper.v
+    - unzipped/src/i3c_sdr_slave_engine.v
+    - unzipped/src/sync_support.v
+    - unzipped/src/i3c_reset_detector.v
+    - unzipped/src/i3c_params.v
+    - unzipped/src/i3c_ccc_slave.v
+    - unzipped/src/i3c_pinm_reg_ext.v
+    - unzipped/src/i3c_slave_wrapper.v
+    - unzipped/src/i3c_internal_fifo.v
+    - unzipped/src/i3c_daa_slave.v
+    - unzipped/src/i3c_full_wrapper.v
+    - unzipped/src/i3c_regs.v
